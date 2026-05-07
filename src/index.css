@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-pink-100 via-rose-50 to-fuchsia-100;
+}
