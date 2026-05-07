@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function TodoForm ({ onAddToDo }) {
+function ToDoForm ({ onAddToDo }) {
     const [inputValue, setInputValue] = useState('')
 
     const handleSubmit = (e) => {
@@ -58,4 +58,4 @@ function TodoForm ({ onAddToDo }) {
     )
 }
 
-export default TodoForm
+export default ToDoForm

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import ToDoItem from './components/ToDoItem'
-import TodoForm from './components/TodoForm'
+import ToDoForm from './components/ToDoForm'
 
 function App() {
   const [todos, setTodos] = useState(() => {
@@ -41,7 +41,7 @@ function App() {
         <h1 className="text-5xl text-gray-700 [font-family:'Oleo_Script_Swash_Caps'] mb-6">
           My To Do List
         </h1>
-        <TodoForm onAddToDo={onAddToDo} />
+        <ToDoForm onAddToDo={onAddToDo} />
          <ul className='mt-4 space-y-3'> 
             {
                 todos.map((todo) => (
