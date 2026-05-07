@@ -14,7 +14,7 @@ function App() {
 
     const onAddToDo = (text) => {
       setTodos([...todos, {
-        id: Date.now(),
+        id: crypto.randomUUID(),
         text: text,
         completed: false
       }])
